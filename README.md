@@ -32,7 +32,7 @@ During experimentation we replaced the conextual backbone with:
 ## Results 
 | Input   | VAD Scores |Music Generated|
 | :-----------: | :-----------: | :-----------: |
-| <img align="center" src="./ex1.png" width=200 height=200>  | <img align="center" src="./output1.png" width=200 height=200>|https://github.com/asadimtiazmalik/EmotionbasedMusicGeneration/blob/main/audio.mpeg|
+| <img align="center" src="./ex1.png" width=200 height=200>  | <img align="center" src="./output1.png" width=200 height=200>|[Generated Audio](https://github.com/asadimtiazmalik/EmotionbasedMusicGeneration/blob/main/audio.mpeg)|
 | <img align="center" src="./ex2.png" width=200 height=200>   |  <img align="center" src="./output2.png" width=200 height=200>      |N/A |
 
 
