@@ -1,6 +1,5 @@
 # Emotion based Music Generation
-Music is a powerful medium for evoking emotions, and the ability to generate music that is tailored to a specific emotion would have numerous applications. In the field of film scoring, for example, being able to automatically generate music that matches the emotional content of a scene could greatly speed up the scoring process and allow for 
-more personalized soundtracks. Similarly, in the field of video game design, being able to generate music that dynamically responds to in-game events and player actions could enhance the immersive experience for players.
+Music is a powerful medium for evoking emotions, and the ability to generate music that is tailored to a specific emotion would have numerous applications. In the field of film scoring, for example, being able to automatically generate music that matches the emotional content of a scene could greatly speed up the scoring process and allow for more personalized soundtracks. Similarly, in the field of video game design, being able to generate music that dynamically responds to in-game events and player actions could enhance the immersive experience for players.
 
 
 ## Features
@@ -33,8 +32,8 @@ During experimentation we replaced the conextual backbone with:
 ## Results 
 | Input   | VAD Scores |Music Generated|
 | :-----------: | :-----------: | :-----------: |
-| **Example 1**   | 52       |15 |
-| **Example 2**    | 104       |10 |
+| <img align="center" src="./ex1.png" width=200 height=200>  | <img align="center" src="./output1.png" width=200 height=200>|https://github.com/asadimtiazmalik/EmotionbasedMusicGeneration/blob/main/audio.mpeg|
+| <img align="center" src="./ex2.png" width=200 height=200>   |  <img align="center" src="./output2.png" width=200 height=200>      |10 |
 | **omnivore_swinB (facebook research_SceneRecog_SOA)**   | 12      |10|
 
 ## References
