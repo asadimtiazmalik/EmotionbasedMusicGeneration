@@ -4,7 +4,7 @@ Music is a powerful medium for evoking emotions, and the ability to generate mus
 
 ## Features
 
-Our work build upon and expands the work of two different repositorries [https://github.com/Tandon-A/emotic][EmLink] and  while also experimenting with different parts of the project. Our project utilizes the work done by the authors of the "Context Based Emotion Recognition using EMOTIC Dataset" and "EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation". 
+Our work build upon and expands the work of two different repositories [1](https://github.com/Tandon-A/emotic) and [2](https://github.com/annahung31/EMOPIA). Moreover while experimenting with different parts of the project. Our project utilizes the work done by the authors of the "Context Based Emotion Recognition using EMOTIC Dataset" and "EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation". 
 
 To generate music from captured emotions we divide our work in 2 different modules:
 
