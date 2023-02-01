@@ -33,8 +33,8 @@ During experimentation we replaced the conextual backbone with:
 | Input   | VAD Scores |Music Generated|
 | :-----------: | :-----------: | :-----------: |
 | <img align="center" src="./ex1.png" width=200 height=200>  | <img align="center" src="./output1.png" width=200 height=200>|https://github.com/asadimtiazmalik/EmotionbasedMusicGeneration/blob/main/audio.mpeg|
-| <img align="center" src="./ex2.png" width=200 height=200>   |  <img align="center" src="./output2.png" width=200 height=200>      |10 |
-| **omnivore_swinB (facebook research_SceneRecog_SOA)**   | 12      |10|
+| <img align="center" src="./ex2.png" width=200 height=200>   |  <img align="center" src="./output2.png" width=200 height=200>      |N/A |
+
 
 ## References
 ```
