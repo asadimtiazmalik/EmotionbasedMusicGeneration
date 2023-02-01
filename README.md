@@ -14,12 +14,14 @@ To generate music from captured emotions we divide our work in 2 different modul
 
 This work focuses on generating piano music from the captured emotions from the pictures provided during inference time. 
 
-For the generation of VAD scores we made some changes to the architecture proposed by the authors of "Context Based Emotion Recognition using EMOTIC Dataset". This work utilizes 2 different Resnet-18 backbones to extract contextual and body information from the image provided. Resnet-18 extracting the contextual information is trained on Places 365 dataset (link provided in the github repository [https://github.com/Tandon-A/emotic][EmLink]). 
+For the generation of VAD scores we made some changes to the architecture proposed by the authors of "Context Based Emotion Recognition using EMOTIC Dataset". This work utilizes 2 different Resnet-18 backbones to extract contextual and body information from the image provided. Resnet-18 extracting the contextual information is trained on Places 365 dataset (link provided in the github repository https://github.com/Tandon-A/emotic). 
 
 During experimentation we replaced the conextual backbone with: 
 
-> Resnet-50 
-> Omnivore_swinB (facebook research_SceneRecog_SOA)
+> - Resnet-50 
+> - Omnivore_swinB (facebook research_SceneRecog_SOA)
+
+
 
 | Models    | Batch Size |Epochs|mAP |
 | :-----------: | :-----------: | :-----------: |:-----------: |
@@ -27,8 +29,13 @@ During experimentation we replaced the conextual backbone with:
 | **Resnet_50 backbone in context model**    | 104       |10 |0.2599 |
 | **omnivore_swinB (facebook research_SceneRecog_SOA)**   | 12      |10|0.40|
 
-
+**NOTE:** All of the above were pretrained on places365 dataset
 ## Results 
+| Input   | VAD Scores |Music Generated|
+| :-----------: | :-----------: | :-----------: |
+| **Example 1**   | 52       |15 |
+| **Example 2**    | 104       |10 |
+| **omnivore_swinB (facebook research_SceneRecog_SOA)**   | 12      |10|
 
 ## References
 ```
